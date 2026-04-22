@@ -15,12 +15,12 @@ void setup(){
 
   // take a bite out of the tomato!
   fill(255, 255, 255);
-  ellipse(175, 200, 30, 30);
+  ellipse(175, 200, 50, 50);
 
   
   draw = function() {
     
-    ellipse(mouseX, mouseY, 30, 30);
+    ellipse(mouseX, mouseY, 50, 50);
   }
 }
 
